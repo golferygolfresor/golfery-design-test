@@ -392,3 +392,10 @@ button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,su
 .newsletter .consent{width:100%;font-size:11px;color:var(--ink-muted);display:flex;gap:8px;align-items:center}
 @media(max-width:800px){.promise-grid{grid-template-columns:1fr}.guide-grid{grid-template-columns:1fr 1fr}.newsletter-inner{grid-template-columns:1fr}}
 @media(max-width:560px){.guide-grid{grid-template-columns:1fr}.contact-bar .container{justify-content:center}}
+
+/* Real logo (golfery.se logo.svg): green on light, white variant on forest */
+.brand-logo{display:block;height:52px;width:auto}
+.footer .brand-logo{height:60px}
+a.package-art{display:block}
+@media(max-width:560px){.brand-logo{height:44px}}
+@media(max-width:560px){.announcement .dot,.announcement span:nth-child(3){display:none}.contact-bar .group>a:first-of-type{display:none}.contact-bar .markets a{padding:0 4px;font-size:10.5px}}
